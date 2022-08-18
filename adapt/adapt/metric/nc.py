@@ -86,7 +86,7 @@ class NeuronCoverage(Metric):
     >>> from adapt.metric import NC
     >>> metric = NC()
     >>> metric
-    NeuronCoverage(theta=0.5)
+    NeuronCoverage(theta=0.8)
     '''
 
     return 'NeuronCoverage(theta={})'.format(self.theta)
