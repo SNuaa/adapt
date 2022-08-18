@@ -81,7 +81,7 @@ class Network:
     
     >>> from tensorflow.keras.applications.vgg19 import VGG19
     >>> from adapt import Network
-    >>> model = VGG19()
+    >>> model = vgg19()
     >>> network = Network(model)
     >>> len(network.layers)
     24
